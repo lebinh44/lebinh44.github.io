@@ -151,5 +151,20 @@ header .search input{
     background-color: #7e7c7c(0, 0%, 100%);
     transition: all 0.5s;
 }
+@media (max-width: 600px)
+{
+    header{
+        padding: 20px;
+    }
+    .search{
+        position: relative;
+        width: calc(100% - 20px);
+        height: 40px;
+    }
+    .banner{
+        padding: 220px 20px 100px
+    }
+}
+
 
 
